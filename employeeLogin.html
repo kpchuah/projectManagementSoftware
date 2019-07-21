@@ -18,18 +18,15 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <script>
+                $(function(){
+                  $("#nav-placeholder").load("nav.html");
+                });
+                </script>
 </head>
-
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid" >
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="images/logo.png" width="30px">
-                </a>
+        <div id="nav-placeholder">
             </div>
-        </div>
-    </nav>
     <form class="form-horizontal">
         <div class="form-group">
             <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
