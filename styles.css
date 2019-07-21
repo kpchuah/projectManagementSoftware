@@ -5,3 +5,6 @@
 .navbar {
   background-color: #3c8dbc;
 }
+.navbar-header{
+padding: 10px;
+}
